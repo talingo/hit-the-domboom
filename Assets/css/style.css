@@ -1,6 +1,6 @@
 @font-face {
     font-family: Lato;
-    src: url(https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap);
+    src: url(https://fonts.googleapis.com/css2?family=Lato&display=swap);
 }
 
 *{
@@ -18,13 +18,15 @@
     header {
         display: flex;
         flex-direction: column;
-        align-content: flex-end;
+        justify-content: flex-end;
+        align-items: flex-end;
     }
 
-    header img{
+    header .img{
         width: 250px;
-    }
-    
+        display: flex;
+        justify-content: center;
+    }    
     
     #menu {        
         background-color:#00F582;
@@ -36,6 +38,7 @@
         justify-content: center;
         flex-direction: column;
         align-items: flex-end;
+        padding-right: 10px;
     }
 
     #line{
