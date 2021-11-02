@@ -14,8 +14,23 @@
 }
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
+nav {
+    display: flex;    
+    justify-content: space-between;
+    width: 50%;
+}
+nav a{
+    display: flex;
+    font-size: 1.25em;
+}
+#active{
+    color: green;
+}
+#border{
+    border-left: 1px solid white;
+} 
 .section{
     display: flex;
     justify-content: center;
@@ -37,18 +52,8 @@ article p{
 .section img{
     width : 50%;
 }
-nav a{
-    display: inline;
-    margin: 1em;
-    padding: 1em;
-    font-size: 1.25em;
-    }
-   #active{
-        color: green;
-    }
-   #border{
-       border-left: 1px solid white;
-    }    
+
+   
 .footer{
     display: flex;
     flex-direction: column;
@@ -75,7 +80,7 @@ nav a{
     right: 100px;
 
 }
-/*Mobile & Tablet*/
+
 
 /*Mobile & Tablet*/
 @media only screen and (max-width:991.98px ) {
@@ -163,22 +168,29 @@ nav a{
 
     /* hit button */
     #hit {
+        z-index:99;
+        position:static;
         margin-top: 10%;
+        margin-left: 10%;
         display: flex;
         justify-content: center;
+        align-content: center;
     }
     #hit img {
-        margin-left: 10px;
+        width: 50%;
     }
     #hit button {
         border: none;
         background: rgba(128, 128, 128, 0);
-        color: rgba(128, 128, 128, 0.5);
+        color: rgba(128, 128, 128, 0.8);
         font-size: 20px;
+        display: flex;
+        justify-content:center;
+        align-self: center;
+        /* 
         position: relative;
-        height: 20px;
-        top: 85px;
-        right: 130px;
+        top: 115px;
+        right: 180px;*/
 
     }
 
