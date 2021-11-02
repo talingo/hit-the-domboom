@@ -22,7 +22,17 @@
     align-items: center;
 }
 article {
-    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;        
+    width: 50%;
+}
+h1{
+    margin-bottom: 1%;
+    font-size: 60px;
+}
+article p{
+    color: rgba(128, 128, 128, 0.8);
 }
 .section img{
     width : 50%;
