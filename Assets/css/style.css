@@ -27,6 +27,18 @@ article {
 .section img{
     width : 50%;
 }
+nav a{
+    display: inline;
+    margin: 1em;
+    padding: 1em;
+    font-size: 1.25em;
+    }
+   #active{
+        color: green;
+    }
+   #border{
+       border-left: 1px solid white;
+    }    
 .footer{
     display: flex;
     flex-direction: column;
@@ -55,6 +67,7 @@ article {
 }
 /*Mobile & Tablet*/
 
+/*Mobile & Tablet*/
 @media only screen and (max-width:991.98px ) {
     /* menú (Falta interacción al abrir el menú) */
     header {
