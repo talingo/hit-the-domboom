@@ -121,11 +121,11 @@ h2 {
     position: absolute;
     left: 65.56%;
     top: 15%;
-    background: transparent;
+    background: transparent;    
+    width: 25%;
 }
 
 #hitd img {
-    width: 85%;
     background: transparent;
 }
 #hitd button {
@@ -133,9 +133,10 @@ h2 {
     background: rgba(128, 128, 128, 0);
     color: rgba(128, 128, 128, 0.5);
     font-size: 20px;
-    position: relative;
+    position: absolute;
     width: 100%;
-    top: 10%
+    bottom: 45%;
+    right: 32%;
 }
 #green{
  
