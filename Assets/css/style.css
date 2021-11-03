@@ -24,6 +24,11 @@ nav {
 nav a{
     display: flex;
     font-size: 1.25em;
+    display: flex;
+    display: inline;
+    margin: 1em;
+    padding: 1em;
+    font-size: 1.30em;
 }
 #active{
     color: green;
@@ -47,6 +52,14 @@ article {
     align-items: center;        
     width: 50%;
 }
+#green {
+    background-color: #00F582;
+    width: 170px;
+    height: 46px;
+    border: none;
+    border-radius: 25px;
+
+}
 h1{
     margin-bottom: 1%;
     font-size: 60px;
@@ -55,23 +68,33 @@ article p{
     color: rgba(128, 128, 128, 0.8);
 }
 
-nav a{
-    display: flex;
-    display: inline;
-    margin: 1em;
-    padding: 1em;
-    font-size: 1.30em;
-    }
-   #active{
-        color: green;
-    }
-   #border{
-       border-left: 1px solid white;
-    }    
-.footer{
+
+#active{
+    color: green;
+}
+#border{
+    border-left: 1px solid white;
+}    
+#white {
+    background-color: white;
+    color: black;
+    width: 170px;
+    height: 46px;
+    border: none;
+    border-radius: 25px;
+}
+footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 15%;
+}
+h2 {
+    font-size: 30px;
+}
+footer p {
+    font-size: 20px;
+    color: rgba(128, 128, 128, 0.5);
 }
 
 
@@ -88,7 +111,7 @@ nav a{
 }
 
 #hitd img {
-    width: 90%;
+    width: 85%;
     background: transparent;
 }
 #hitd button {
@@ -159,7 +182,7 @@ nav a{
         flex-direction: column-reverse;
         align-items: center;
     }
-    section img {
+    .section img {
         justify-self: center;
         width: 100%;
     }
