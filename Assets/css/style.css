@@ -49,7 +49,7 @@ h1{
 article p{
     color: rgba(128, 128, 128, 0.8);
 }
-.section img{
+section img{
     width : 50%;
 }
 
@@ -60,24 +60,26 @@ article p{
     align-items: center;
 }
 /* hit button */
-#hit {
-    position: absolute;
-    top: 20%;
-    left: 500px;
+#hitm {
+    visibility: hidden; 
+}
+#hitd {
+    visibility: visible; 
+    position: relative;
 }
 
-#hit img {
+#hitd img {
     width: 141px;
 }
-#hit button {
+#hitd button {
     border: none;
     background: rgba(128, 128, 128, 0);
     color: rgba(128, 128, 128, 0.5);
     font-size: 20px;
-    position: relative;
-    height: 20px;
-    bottom: 110px;
-    right: 100px;
+    position: absolute;
+        top: 30%;
+        right:2%;
+        width: 100%;
 
 }
 
@@ -139,8 +141,8 @@ article p{
         align-items: center;
     }
     section img {
-        width: 85%;
         justify-self: center;
+        width: 100%;
     }
     article {
         display: flex;
@@ -167,26 +169,30 @@ article p{
     }
 
     /* hit button */
-    #hit {
-        z-index:99;
-        position:static;
+    #hitd {
+        visibility: hidden; 
+    }
+    #hitm {
+        visibility: visible; 
         margin-top: 10%;
         margin-left: 10%;
         display: flex;
         justify-content: center;
         align-content: center;
+        position: relative;
     }
-    #hit img {
+    #hitm img {
         width: 50%;
     }
-    #hit button {
+    #hitm button {
         border: none;
         background: rgba(128, 128, 128, 0);
         color: rgba(128, 128, 128, 0.8);
         font-size: 20px;
-        display: flex;
-        justify-content:center;
-        align-self: center;
+        position: absolute;
+        top: 40%;
+        right:3%;
+        width: 100%;
         /* 
         position: relative;
         top: 115px;
