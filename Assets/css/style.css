@@ -38,6 +38,7 @@ nav a{
 } 
 .section{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -96,6 +97,28 @@ footer p {
     font-size: 20px;
     color: rgba(128, 128, 128, 0.5);
 }
+footer p{
+    font-weight: bold;
+    color: #494665;
+    letter-spacing: -0.025em;
+    margin: 10px;
+}
+#white {
+    background-color: white;
+    color: rgb(17,16,23);
+    font-weight:bold;
+    width: 136px;
+    height: 46px;
+    border: none;
+    border-radius: 25px;
+}
+
+h2 {
+    margin: 0px;
+    letter-spacing: 0.050em;
+
+}
+/*Mobile & Tablet*/
 
 
 /* hit button */
