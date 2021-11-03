@@ -6,6 +6,7 @@
 *{
     background-color: rgb(01,00,32);
     font-family: 'Lato', sans-serif;
+    font-family: 'Roboto' sans-serif;
     color: white;
 }
 
@@ -96,8 +97,37 @@ nav a{
     right: 100px;
 }
 
+#green{
+ 
+    height: 57px;
+    width: 183px;
+    margin-right: 100px;
+    border-radius: 31px;
+    border-style: none;
+    background: #00F582;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+}
 
+#white{
 
+    width: 151px;
+    height: 51px;
+    left: 560px;
+    top: 803px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    border-style: none;
+    font-style: Bold;
+    letter-spacing: -0.01em;
+    color: #555555;
+
+    font-weight: 1000;
+    font-size: 16px;
+
+}
 
 /*Mobile & Tablet*/
 @media only screen and (max-width:991.98px ) {
@@ -173,7 +203,7 @@ nav a{
         font-size: 20px;
         color: rgba(128, 128, 128, 0.5);
     }
-
+/*
     #green {
         background-color: #00F582;
         width: 170px;
@@ -182,7 +212,7 @@ nav a{
         border-radius: 25px;
 
     }
-
+*/
     /* hit button */
     #hit {
         z-index:99;
@@ -225,7 +255,7 @@ nav a{
         font-size: 20px;
         color: rgba(128, 128, 128, 0.5);
     }
-    #white {
+  /*  #white {
         background-color: white;
         color: black;
         width: 170px;
@@ -233,5 +263,5 @@ nav a{
         border: none;
         border-radius: 25px;
     }
-
+*/
 }
