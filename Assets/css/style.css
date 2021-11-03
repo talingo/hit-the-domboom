@@ -35,8 +35,12 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
-
+.section img{
+    display: flex;
+    width:40%;
+}
 article {
     display: flex;
     flex-direction: column;
@@ -50,12 +54,7 @@ h1{
 article p{
     color: rgba(128, 128, 128, 0.8);
 }
-.section img{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width : 25%;  
-}
+
 nav a{
     display: flex;
     display: inline;
@@ -75,17 +74,22 @@ nav a{
     align-items: center;
 }
 
+
 /* hit button */
 #hitm {
     visibility: hidden; 
 }
 #hitd {
     visibility: visible; 
-    position: relative;
+    position: absolute;
+    left: 65.56%;
+    top: 15%;
+    background: transparent;
 }
 
 #hitd img {
-    width: 141px;
+    width: 90%;
+    background: transparent;
 }
 #hitd button {
     border: none;
@@ -93,14 +97,11 @@ nav a{
     color: rgba(128, 128, 128, 0.5);
     font-size: 20px;
     position: absolute;
-        top: 30%;
-        right:2%;
-        width: 100%;
+    top: 33%;
+    right:10%;
+    width: 100%;
 
 }
-
-
-
 
 /*Mobile & Tablet*/
 @media only screen and (max-width:991.98px ) {
