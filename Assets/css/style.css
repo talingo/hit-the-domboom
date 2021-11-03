@@ -25,6 +25,11 @@ nav {
 nav a{
     display: flex;
     font-size: 1.25em;
+    display: flex;
+    display: inline;
+    margin: 1em;
+    padding: 1em;
+    font-size: 1.30em;
 }
 #active{
     color: green;
@@ -34,15 +39,28 @@ nav a{
 } 
 .section{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
-
+.section img{
+    display: flex;
+    width:40%;
+}
 article {
     display: flex;
     flex-direction: column;
     align-items: center;        
     width: 50%;
+}
+#green {
+    background-color: #00F582;
+    width: 170px;
+    height: 46px;
+    border: none;
+    border-radius: 25px;
+
 }
 h1{
     margin-bottom: 1%;
@@ -51,42 +69,76 @@ h1{
 article p{
     color: rgba(128, 128, 128, 0.8);
 }
-.section img{
+
+
+#active{
+    color: green;
+}
+#border{
+    border-left: 1px solid white;
+}    
+#white {
+    background-color: white;
+    color: black;
+    width: 170px;
+    height: 46px;
+    border: none;
+    border-radius: 25px;
+}
+footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width : 25%;  
+    margin-bottom: 15%;
 }
-nav a{
-    display: flex;
-    display: inline;
-    margin: 1em;
-    padding: 1em;
-    font-size: 1.30em;
-    }
-   #active{
-        color: green;
-    }
-   #border{
-       border-left: 1px solid white;
-    }    
-.footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+h2 {
+    font-size: 30px;
 }
+footer p {
+    font-size: 20px;
+    color: rgba(128, 128, 128, 0.5);
+}
+footer p{
+    font-weight: bold;
+    color: #494665;
+    letter-spacing: -0.025em;
+    margin: 10px;
+}
+#white {
+    background-color: white;
+    color: rgb(17,16,23);
+    font-weight:bold;
+    width: 136px;
+    height: 46px;
+    border: none;
+    border-radius: 25px;
+}
+
+h2 {
+    margin: 0px;
+    letter-spacing: 0.050em;
+
+}
+/*Mobile & Tablet*/
+
 
 /* hit button */
-#hit {
+#hitm {
+    visibility: hidden; 
+}
+#hitd {
+    visibility: visible; 
     position: absolute;
-    top: 20%;
-    left: 500px;
+    left: 65.56%;
+    top: 15%;
+    background: transparent;
 }
 
-#hit img {
-    width: 140px;
+#hitd img {
+    width: 85%;
+    background: transparent;
 }
-#hit button {
+#hitd button {
     border: none;
     background: rgba(128, 128, 128, 0);
     color: rgba(128, 128, 128, 0.5);
@@ -185,9 +237,9 @@ nav a{
         flex-direction: column-reverse;
         align-items: center;
     }
-    section img {
-        width: 85%;
+    .section img {
         justify-self: center;
+        width: 100%;
     }
     article {
         display: flex;
@@ -214,26 +266,30 @@ nav a{
     }
 */
     /* hit button */
-    #hit {
-        z-index:99;
-        position:static;
+    #hitd {
+        visibility: hidden; 
+    }
+    #hitm {
+        visibility: visible; 
         margin-top: 10%;
         margin-left: 10%;
         display: flex;
         justify-content: center;
         align-content: center;
+        position: relative;
     }
-    #hit img {
+    #hitm img {
         width: 50%;
     }
-    #hit button {
+    #hitm button {
         border: none;
         background: rgba(128, 128, 128, 0);
         color: rgba(128, 128, 128, 0.8);
         font-size: 20px;
-        display: flex;
-        justify-content:center;
-        align-self: center;
+        position: absolute;
+        top: 40%;
+        right:3%;
+        width: 100%;
         /* 
         position: relative;
         top: 115px;
