@@ -11,8 +11,14 @@
     <title>Hit the domboom</title>
 </head>
 <body>
- <header class="header">
-     <button id="menu"></button>
+ <header>
+     <div class="bmenu">
+        <button id="menu">
+            <div id="line"></div>         
+            <div id="line"></div>
+            <div id="line"></div>
+        </button>
+     </div> 
      <img src="./Assets/img/logo.png">
      <nav>
          <a>Premium</a>
@@ -21,16 +27,20 @@
          <a id="active">Sign Up</a>
          <a id="border">Log In</a>
      </nav>
-     </header>
+</header>
      <section class="section">
         <article>
-            <h1>Music for everyone.</h1>
+            <h1>Music for <br>everyone.</h1>
             <p>Millions of songs. No credit card needed.</p>
             <button id="green">Hit the</button>
         </article>
         <img src="./Assets/img/drumkit.png" alt="Drumkit">
+        <div id="hitd">
+        <img src="./Assets/img/muestra-boton.png" alt ="Botón interactivo de hit">
+        <button>Hit</button> <!-- mejor <p> ? Y la imágen sea la que recibe onClick? -->
+    </div>
     </section>
-    <div id="hit">
+    <div id="hitm">
         <img src="./Assets/img/muestra-boton.png" alt ="Botón interactivo de hit">
         <button>Hit</button> <!-- mejor <p> ? Y la imágen sea la que recibe onClick? -->
     </div>

@@ -14,19 +14,48 @@
 }
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
+nav {
+    display: flex;    
+    justify-content: space-between;
+    width: 50%;
+}
+nav a{
+    display: flex;
+    font-size: 1.25em;
+}
+#active{
+    color: green;
+}
+#border{
+    border-left: 1px solid white;
+} 
 .section{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
+
 article {
-    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;        
+    width: 50%;
 }
-.section img{
-    width : 50%;
+h1{
+    margin-bottom: 1%;
+    font-size: 60px;
+}
+article p{
+    color: rgba(128, 128, 128, 0.8);
+}
+.section img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width : 25%;  
 }
 footer{
     display: flex;
@@ -56,23 +85,57 @@ h2 {
 }
 /*Mobile & Tablet*/
 
+/* hit button */
+#hitm {
+    visibility: hidden; 
+}
+#hitd {
+    visibility: visible; 
+    position: relative;
+}
+
+#hitd img {
+    width: 141px;
+}
+#hitd button {
+    border: none;
+    background: rgba(128, 128, 128, 0);
+    color: rgba(128, 128, 128, 0.5);
+    font-size: 20px;
+    position: absolute;
+        top: 30%;
+        right:2%;
+        width: 100%;
+
+}
+
+
+
+
+/*Mobile & Tablet*/
 @media only screen and (max-width:991.98px ) {
     /* menú (Falta interacción al abrir el menú) */
     header {
         display: flex;
         flex-direction: column;        
         width: 100%;
-        align-items: flex-end; 
+        align-items: center; 
         margin-bottom: 10%;
     }
 
-    #header__img{
-        width: 100%;
+    header img{
+        width: 75%;
         display: flex;
         justify-content: center;
-    }    
+    }   
+    .bmenu {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    } 
     
-    #header__menu {        
+    #menu {   
+        visibility: visible;     
         background-color:#00F582;
         width: 93px;
         height: 46px;
@@ -85,18 +148,18 @@ h2 {
         padding-right: 10px;
     }
 
-    #header__menu--line{
+    #line{
         width: 15px;
         height: 2px;
         margin: 2px;
         display: flex;    
         background-color: white;
     }
-    #header__menu--line:nth-child(2){
+    #line:nth-child(2){
         width: 10px;
     }
-    nav {
-        display: none;
+    nav a{
+        visibility: hidden;
     }
     /* Section principal */
 
@@ -106,8 +169,8 @@ h2 {
         align-items: center;
     }
     section img {
-        width: 85%;
         justify-self: center;
+        width: 100%;
     }
     article {
         display: flex;
@@ -134,23 +197,34 @@ h2 {
     }
 
     /* hit button */
-    #hit {
+    #hitd {
+        visibility: hidden; 
+    }
+    #hitm {
+        visibility: visible; 
         margin-top: 10%;
+        margin-left: 10%;
         display: flex;
         justify-content: center;
+        align-content: center;
+        position: relative;
     }
-    #hit img {
-        margin-left: 10px;
+    #hitm img {
+        width: 50%;
     }
-    #hit button {
+    #hitm button {
         border: none;
         background: rgba(128, 128, 128, 0);
-        color: rgba(128, 128, 128, 0.5);
+        color: rgba(128, 128, 128, 0.8);
         font-size: 20px;
+        position: absolute;
+        top: 40%;
+        right:3%;
+        width: 100%;
+        /* 
         position: relative;
-        height: 20px;
-        top: 85px;
-        right: 130px;
+        top: 115px;
+        right: 180px;*/
 
     }
 
