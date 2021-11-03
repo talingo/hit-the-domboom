@@ -56,11 +56,16 @@ article p{
     align-items: center;
     width : 25%;  
 }
+div img{
+    display:flex;
+    margin: 60px;
+}
 nav a{
-    display: flex;
+    display:flex;
     display: inline;
+    justify:center;
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
     font-size: 1.30em;
     }
    #active{
