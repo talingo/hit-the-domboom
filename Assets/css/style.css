@@ -36,6 +36,7 @@ nav a{
     justify-content: center;
     align-items: center;
 }
+
 article {
     display: flex;
     flex-direction: column;
@@ -49,16 +50,31 @@ h1{
 article p{
     color: rgba(128, 128, 128, 0.8);
 }
-section img{
-    width : 50%;
+.section img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width : 25%;  
 }
-
-   
+nav a{
+    display: flex;
+    display: inline;
+    margin: 1em;
+    padding: 1em;
+    font-size: 1.30em;
+    }
+   #active{
+        color: green;
+    }
+   #border{
+       border-left: 1px solid white;
+    }    
 .footer{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 /* hit button */
 #hitm {
     visibility: hidden; 
@@ -82,6 +98,8 @@ section img{
         width: 100%;
 
 }
+
+
 
 
 /*Mobile & Tablet*/
