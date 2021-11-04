@@ -120,7 +120,7 @@ h2 {
     visibility: visible; 
     position: absolute;
     left: 65.56%;
-    top: 15%;
+    top: 17.5%;
     background: transparent;    
     width: 25%;
 }
@@ -142,8 +142,8 @@ h2 {
 #hitcrash {
     visibility: visible; 
     position: absolute;
-    left: 65.56%;
-    top: 15%;
+    left: 60.8%;
+    top: 51.9%;
     background: transparent;    
     width: 25%;
 }
@@ -156,6 +156,144 @@ h2 {
     background: rgba(128, 128, 128, 0);
     color: rgba(128, 128, 128, 0.5);
     font-size: 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 45%;
+    right: 32%;
+}
+
+#hithat {
+    visibility: visible; 
+    position: absolute;
+    left: 55.2%;
+    top: 7%;
+    background: transparent;    
+    width: 20%;
+}
+
+#hithat img {
+    background: transparent;
+}
+#hithat button {
+    border: none;
+    background: rgba(128, 128, 128, 0);
+    color: rgba(128, 128, 128, 0.5);
+    font-size: 16px;
+    position: absolute;
+    width: 100%;
+    bottom: 45%;
+    right: 32%;
+}
+
+#hitredo {
+    visibility: visible; 
+    position: absolute;
+    left: 58.2%;
+    top: 29%;
+    background: transparent;    
+    width: 20%;
+}
+
+#hitredo img {
+    background: transparent;
+}
+#hitredo button {
+    border: none;
+    background: rgba(128, 128, 128, 0);
+    color: rgba(128, 128, 128, 0.5);
+    font-size: 16px;
+    position: absolute;
+    width: 100%;
+    bottom: 45%;
+    right: 32%;
+}
+
+#hittom1 {
+    visibility: visible; 
+    position: absolute;
+    left: 75.1%;
+    top: 17.5%;
+    background: transparent;    
+    width: 25%;
+}
+
+#hittom1 img {
+    background: transparent;
+}
+#hittom1 button {
+    border: none;
+    background: rgba(128, 128, 128, 0);
+    color: rgba(128, 128, 128, 0.5);
+    font-size: 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 45%;
+    right: 32%;
+}
+
+#hittom2 {
+    visibility: visible; 
+    position: absolute;
+    left: 80%;
+    top: 51.9%;
+    background: transparent;    
+    width: 25%;
+}
+
+#hittom2 img {
+    background: transparent;
+}
+#hittom2 button {
+    border: none;
+    background: rgba(128, 128, 128, 0);
+    color: rgba(128, 128, 128, 0.5);
+    font-size: 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 45%;
+    right: 32%;
+}
+
+#hittom3 {
+    visibility: visible; 
+    position: absolute;
+    left: 84.2%;
+    top: 29%;
+    background: transparent;    
+    width: 20%;
+}
+
+#hittom3 img {
+    background: transparent;
+}
+#hittom3 button {
+    border: none;
+    background: rgba(128, 128, 128, 0);
+    color: rgba(128, 128, 128, 0.5);
+    font-size: 16px;
+    position: absolute;
+    width: 100%;
+    bottom: 45%;
+    right: 32%;
+}
+
+#hittom4 {
+    visibility: visible; 
+    position: absolute;
+    left: 87.2%;
+    top: 7%;
+    background: transparent;    
+    width: 20%;
+}
+
+#hittom4 img {
+    background: transparent;
+}
+#hittom4 button {
+    border: none;
+    background: rgba(128, 128, 128, 0);
+    color: rgba(128, 128, 128, 0.5);
+    font-size: 16px;
     position: absolute;
     width: 100%;
     bottom: 45%;
