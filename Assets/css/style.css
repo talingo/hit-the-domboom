@@ -13,7 +13,7 @@
 #menu {
     visibility: hidden;
 }
-header{
+header {
     display: flex;
     justify-content: center;
 }
@@ -22,7 +22,7 @@ nav {
     justify-content: space-between;
     width: 50%;
 }
-nav a{
+nav a {
     display: flex;
     font-size: 1.25em;
     display: flex;
@@ -31,13 +31,13 @@ nav a{
     padding: 1em;
     font-size: 1.30em;
 }
-#active{
+#active {
     color: green;
 }
-#border{
+#border {
     border-left: 1px solid white;
 } 
-section{
+section {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -87,11 +87,9 @@ footer {
 h2 {
     font-size: 30px;
 }
-footer p {
+footer p{    
     font-size: 20px;
     color: rgba(128, 128, 128, 0.5);
-}
-footer p{
     font-weight: bold;
     color: #494665;
     letter-spacing: -0.025em;
@@ -115,120 +113,34 @@ h2 {
 /* hit button */
 #hitm {
     visibility: hidden; 
+    height: 50px;
 }
 #hitbombo {
     visibility: visible; 
     position: absolute;
     left: 65.56%;
-    top: 17.5%;
-    background: transparent;    
-    width: 25%;
+    top: 15%;
+    background: transparent; 
+    width: 9%;
+    height: 31%;   
 }
-
-#hitbombo img {
-    background: transparent;
-}
-#hitbombo button {
-    border: none;
-    background: rgba(128, 128, 128, 0);
-    color: rgba(128, 128, 128, 0.5);
-    font-size: 20px;
-    position: absolute;
-    width: 100%;
-    bottom: 45%;
-    right: 32%;
-}
-
 #hitcrash {
     visibility: visible; 
     position: absolute;
     left: 60.8%;
     top: 51.9%;
-    background: transparent;    
-    width: 25%;
-}
-
-#hitcrash img {
     background: transparent;
+    width: 9%;
+    height: 31%;   
 }
-#hitcrash button {
-    border: none;
-    background: rgba(128, 128, 128, 0);
-    color: rgba(128, 128, 128, 0.5);
-    font-size: 20px;
-    position: absolute;
-    width: 100%;
-    bottom: 45%;
-    right: 32%;
-}
-
-#hithat {
-    visibility: visible; 
-    position: absolute;
-    left: 55.2%;
-    top: 7%;
-    background: transparent;    
-    width: 20%;
-}
-
-#hithat img {
-    background: transparent;
-}
-#hithat button {
-    border: none;
-    background: rgba(128, 128, 128, 0);
-    color: rgba(128, 128, 128, 0.5);
-    font-size: 16px;
-    position: absolute;
-    width: 100%;
-    bottom: 45%;
-    right: 32%;
-}
-
-#hitredo {
-    visibility: visible; 
-    position: absolute;
-    left: 58.2%;
-    top: 29%;
-    background: transparent;    
-    width: 20%;
-}
-
-#hitredo img {
-    background: transparent;
-}
-#hitredo button {
-    border: none;
-    background: rgba(128, 128, 128, 0);
-    color: rgba(128, 128, 128, 0.5);
-    font-size: 16px;
-    position: absolute;
-    width: 100%;
-    bottom: 45%;
-    right: 32%;
-}
-
 #hittom1 {
     visibility: visible; 
     position: absolute;
     left: 75.1%;
-    top: 17.5%;
+    top: 15%;
     background: transparent;    
-    width: 25%;
-}
-
-#hittom1 img {
-    background: transparent;
-}
-#hittom1 button {
-    border: none;
-    background: rgba(128, 128, 128, 0);
-    color: rgba(128, 128, 128, 0.5);
-    font-size: 20px;
-    position: absolute;
-    width: 100%;
-    bottom: 45%;
-    right: 32%;
+    width: 9%;
+    height: 31%;
 }
 
 #hittom2 {
@@ -237,59 +149,92 @@ h2 {
     left: 80%;
     top: 51.9%;
     background: transparent;    
-    width: 25%;
+    width: 9%;
+    height: 31%;   
 }
 
-#hittom2 img {
+#hitbombo img,
+#hitcrash img,
+#hittom1 img,
+#hittom2 img  {
     background: transparent;
+    width: 114%;
+    height: 116%;  
+
 }
-#hittom2 button {
+#hitbombo button, 
+#hitcrash button,
+#hittom1 button,
+#hittom2 button   {
     border: none;
     background: rgba(128, 128, 128, 0);
     color: rgba(128, 128, 128, 0.5);
     font-size: 20px;
     position: absolute;
     width: 100%;
-    bottom: 45%;
-    right: 32%;
+    bottom: 40%;
+}
+
+#hithat {
+    visibility: visible; 
+    position: absolute;
+    left: 55.2%;
+    top: 5%;
+    background: transparent;    
+    width: 7%;
+    height: 25%;   
+}
+
+#hithat img {
+    background: transparent;
+    width: 110%;
+    height: 110%;
+}
+#hitredo {
+    visibility: visible; 
+    position: absolute;
+    left: 58.2%;
+    top: 28%;
+    background: transparent;    
+    width: 7%;
+    height: 25%;
+}
+
+#hitredo img {
+    background: transparent;
+    width: 105%;
+    height: 105%;
 }
 
 #hittom3 {
     visibility: visible; 
     position: absolute;
     left: 84.2%;
-    top: 29%;
+    top: 28%;
     background: transparent;    
-    width: 20%;
-}
-
-#hittom3 img {
-    background: transparent;
-}
-#hittom3 button {
-    border: none;
-    background: rgba(128, 128, 128, 0);
-    color: rgba(128, 128, 128, 0.5);
-    font-size: 16px;
-    position: absolute;
-    width: 100%;
-    bottom: 45%;
-    right: 32%;
+    width: 7%;
+    height: 25%;
 }
 
 #hittom4 {
     visibility: visible; 
     position: absolute;
     left: 87.2%;
-    top: 7%;
+    top: 5%;
     background: transparent;    
-    width: 20%;
+    width: 7%;
+    height: 25%;  
 }
-
+#hittom3 img,
 #hittom4 img {
     background: transparent;
+    width: 110%;
+    height: 109%;
 }
-#hittom4 button {
+#hithat button,
+#hitredo button,
+#hittom3 button,
+#hittom4 button  {
     border: none;
     background: rgba(128, 128, 128, 0);
     color: rgba(128, 128, 128, 0.5);
@@ -297,10 +242,8 @@ h2 {
     position: absolute;
     width: 100%;
     bottom: 45%;
-    right: 32%;
 }
-
-#green{
+#green {
  
     height: 57px;
     width: 183px;
@@ -314,7 +257,7 @@ h2 {
     font-size: 18px;
 }
 
-#white{
+#white {
 
     width: 151px;
     height: 51px;
@@ -342,8 +285,7 @@ header {
     margin-bottom: 10%;
 }
 
-header img{/* 
-    width: 75%; */
+header img{
     display: flex;
     justify-content: center;
 }   
@@ -367,14 +309,14 @@ header img{/*
     padding-right: 10px;
 }
 
-#line{
+#line {
     width: 15px;
     height: 2px;
     margin: 2px;
     display: flex;    
     background-color: white;
 }
-#line:nth-child(2){
+#line:nth-child(2) {
     width: 10px;
 }
 nav a{
@@ -423,9 +365,7 @@ article p {
 #hittom1,
 #hittom2,
 #hittom3,
-#hittom4
-
- {
+#hittom4 {
     visibility: hidden; 
 }
 #hitm {
@@ -449,10 +389,6 @@ article p {
     top: 40%;
     right:3%;
     width: 100%;
-    /* 
-    position: relative;
-    top: 115px;
-    right: 180px;*/
 
 }
 
