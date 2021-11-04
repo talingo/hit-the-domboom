@@ -160,7 +160,8 @@ h2 {
 #hittom2 img  {
     background: transparent;
     width: 114%;
-    height: 116%;  
+    height: 116%;
+    opacity: 0.6;  
 
 }
 #hitbombo button, 
@@ -190,6 +191,7 @@ h2 {
     background: transparent;
     width: 110%;
     height: 110%;
+    opacity: 0.6;
 }
 #hitredo {
     visibility: visible; 
@@ -205,6 +207,7 @@ h2 {
     background: transparent;
     width: 105%;
     height: 105%;
+    opacity: 0.6;
 }
 
 #hittom3 {
@@ -231,6 +234,7 @@ h2 {
     background: transparent;
     width: 110%;
     height: 109%;
+    opacity: 0.6;
 }
 #hithat button,
 #hitredo button,
