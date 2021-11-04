@@ -416,7 +416,16 @@ article p {
 }
 
 /* hit button */
-#hitd {
+#hitbombo, 
+#hitcrash,
+#hithat,
+#hitredo,
+#hittom1,
+#hittom2,
+#hittom3,
+#hittom4
+
+ {
     visibility: hidden; 
 }
 #hitm {
