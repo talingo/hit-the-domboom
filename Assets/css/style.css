@@ -31,9 +31,10 @@ nav a {
     padding: 1em;
     font-size: 1.30em;
 }
-#active {
-    color: green;
+nav a:hover {
+    color: #00F582;
 }
+
 #border {
     border-left: 1px solid white;
 } 
@@ -290,14 +291,12 @@ header {
     display: flex;
     justify-content: center;
 }
-header img{
-    display: flex;
-    justify-content: center;
-}   
 .bmenu {
     width: 100%;
-    display: flex;
-    justify-content: flex-end;
+    position: absolute;
+    top: 10px;
+    left: 87%;    
+    z-index: 2; 
 } 
 
 #menu {   
@@ -324,9 +323,33 @@ header img{
 #line:nth-child(2) {
     width: 10px;
 }
-nav a{
-    visibility: hidden;
+nav {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    height: 100px;
+    top: 60px;
+    left: -160px;
 }
+
+nav a {
+    position: relative;
+    text-decoration: none;
+    height: 20px;
+    background-color: #00F582;
+    margin: 0px;
+    padding: 10px;    
+    transition: background-color 0.5s ease-in-out; 
+}
+nav a:hover {
+    background-color: #01be66;
+}
+.show {
+    right: 10px;
+}
+
 /* Section principal */
 
 section {
