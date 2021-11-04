@@ -116,7 +116,7 @@ h2 {
 #hitm {
     visibility: hidden; 
 }
-#hitd {
+#bombo {
     visibility: visible; 
     position: absolute;
     left: 65.56%;
@@ -125,10 +125,10 @@ h2 {
     width: 25%;
 }
 
-#hitd img {
+#bombo img {
     background: transparent;
 }
-#hitd button {
+#bombo button {
     border: none;
     background: rgba(128, 128, 128, 0);
     color: rgba(128, 128, 128, 0.5);
