@@ -282,9 +282,14 @@ header {
     flex-direction: column;        
     width: 100%;
     align-items: center; 
-    margin-bottom: 10%;
 }
 
+#logo{    
+    height: 118px;
+    width: 462px;    
+    display: flex;
+    justify-content: center;
+}
 header img{
     display: flex;
     justify-content: center;
@@ -333,29 +338,6 @@ section img {
     justify-self: center;
     width: 100%;
 }
-article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-h1 {
-    font-size: 75px;
-    margin-bottom: 1%;
-    padding: 3%;
-}
-article p {
-    font-size: 20px;
-    color: rgba(128, 128, 128, 0.5);
-}
-
-#green {
-    background-color: #00F582;
-    width: 170px;
-    height: 46px;
-    border: none;
-    border-radius: 25px;
-
-}
 
 /* hit button */
 #hitbombo, 
@@ -376,6 +358,7 @@ article p {
     justify-content: center;
     align-content: center;
     position: relative;
+    height:100%
 }
 #hitm img {
     width: 50%;
@@ -392,27 +375,5 @@ article p {
 
 }
 
-/* footer */
-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 15%;
-}
-h2 {
-    font-size: 30px;
-}
-footer p {
-    font-size: 20px;
-    color: rgba(128, 128, 128, 0.5);
-}
-#white {
-    background-color: white;
-    color: black;
-    width: 170px;
-    height: 46px;
-    border: none;
-    border-radius: 25px;
-}
 
 }
