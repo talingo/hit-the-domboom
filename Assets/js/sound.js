@@ -1,12 +1,3 @@
-/* const music = new Audio('adf.wav');
-music.play();
-music.loop =true;
-music.playbackRate = 2;
-music.pause(); */
-/* 
-var audio = new Audio('audio.mp3');
-  audio.play(); */
-
   /* Bombo */
 const bombo = document.querySelector('#hitbombo');
 bombo.addEventListener('click',function() {    
