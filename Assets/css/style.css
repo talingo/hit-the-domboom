@@ -116,7 +116,7 @@ h2 {
 #hitm {
     visibility: hidden; 
 }
-#bombo {
+#hitbombo {
     visibility: visible; 
     position: absolute;
     left: 65.56%;
@@ -125,10 +125,10 @@ h2 {
     width: 25%;
 }
 
-#bombo img {
+#hitbombo img {
     background: transparent;
 }
-#bombo button {
+#hitbombo button {
     border: none;
     background: rgba(128, 128, 128, 0);
     color: rgba(128, 128, 128, 0.5);
@@ -138,6 +138,30 @@ h2 {
     bottom: 45%;
     right: 32%;
 }
+
+#hitcrash {
+    visibility: visible; 
+    position: absolute;
+    left: 65.56%;
+    top: 15%;
+    background: transparent;    
+    width: 25%;
+}
+
+#hitcrash img {
+    background: transparent;
+}
+#hitcrash button {
+    border: none;
+    background: rgba(128, 128, 128, 0);
+    color: rgba(128, 128, 128, 0.5);
+    font-size: 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 45%;
+    right: 32%;
+}
+
 #green{
  
     height: 57px;
