@@ -1,0 +1,383 @@
+/*@font-face {
+    font-family: Lato;
+    src: url(https://fonts.googleapis.com/css2?family=Lato&display=swap);
+}*/
+
+*{
+    background-color: rgb(01,00,32);
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto' sans-serif;
+    color: white;
+}
+
+#menu {
+    visibility: hidden;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+nav {
+    display: flex;    
+    justify-content: flex-end;
+    width: 50%;
+    font-weight: 600;
+    font-size: 12px;
+}
+nav a {
+    display: flex;
+    font-size: 1.25em;
+    display: flex;
+    display: inline;
+    padding: 1em;
+    font-size: 1.30em;
+    text-align: center;
+}
+#active {
+    color: rgb(43, 141, 89);
+}
+#border {
+    border-left: 1px solid white;
+    
+
+} 
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+section img{
+    display: flex;
+    width:40%;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;        
+    width: 50%;
+}
+#green {
+    background-color: #00F582;
+    width: 170px;
+    height: 46px;
+    border: none;
+    border-radius: 25px;
+
+}
+h1{
+    margin-bottom: 1%;
+    font-size: 60px;
+}
+article p{
+    color: rgba(128, 128, 128, 0.8);
+}
+   
+#white {
+    background-color: white;
+    color: black;
+    width: 170px;
+    height: 46px;
+    border: none;
+    border-radius: 25px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15%;
+}
+h2 {
+    font-size: 30px;
+}
+footer p{    
+    font-size: 20px;
+    color: rgba(128, 128, 128, 0.5);
+    font-weight: bold;
+    color: #494665;
+    letter-spacing: -0.025em;
+    margin: 10px;
+}
+#white {
+    background-color: white;
+    color: rgb(17,16,23);
+    font-weight:bold;
+    width: 136px;
+    height: 46px;
+    border: none;
+    border-radius: 25px;
+}
+
+h2 {
+    margin: 0px;
+    letter-spacing: 0.050em;
+
+}
+/* hit button */
+#hitm {
+    visibility: hidden; 
+    height: 50px;
+}
+#hitbombo {
+    visibility: visible; 
+    position: absolute;
+    left: 65.56%;
+    top: 15%;
+    background: transparent; 
+    width: 9%;
+    height: 31%;   
+}
+#hitcrash {
+    visibility: visible; 
+    position: absolute;
+    left: 60.8%;
+    top: 51.9%;
+    background: transparent;
+    width: 9%;
+    height: 31%;   
+}
+#hittom1 {
+    visibility: visible; 
+    position: absolute;
+    left: 75.1%;
+    top: 15%;
+    background: transparent;    
+    width: 9%;
+    height: 31%;
+}
+
+#hittom2 {
+    visibility: visible; 
+    position: absolute;
+    left: 80%;
+    top: 51.9%;
+    background: transparent;    
+    width: 9%;
+    height: 31%;   
+}
+
+#hitbombo img,
+#hitcrash img,
+#hittom1 img,
+#hittom2 img  {
+    background: transparent;
+    width: 114%;
+    height: 116%;  
+
+}
+#hitbombo button, 
+#hitcrash button,
+#hittom1 button,
+#hittom2 button   {
+    border: none;
+    background: rgba(128, 128, 128, 0);
+    color: rgba(128, 128, 128, 0.5);
+    font-size: 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 40%;
+}
+
+#hithat {
+    visibility: visible; 
+    position: absolute;
+    left: 55.2%;
+    top: 5%;
+    background: transparent;    
+    width: 7%;
+    height: 25%;   
+}
+
+#hithat img {
+    background: transparent;
+    width: 110%;
+    height: 110%;
+}
+#hitredo {
+    visibility: visible; 
+    position: absolute;
+    left: 58.2%;
+    top: 28%;
+    background: transparent;    
+    width: 7%;
+    height: 25%;
+}
+
+#hitredo img {
+    background: transparent;
+    width: 105%;
+    height: 105%;
+}
+
+#hittom3 {
+    visibility: visible; 
+    position: absolute;
+    left: 84.2%;
+    top: 28%;
+    background: transparent;    
+    width: 7%;
+    height: 25%;
+}
+
+#hittom4 {
+    visibility: visible; 
+    position: absolute;
+    left: 87.2%;
+    top: 5%;
+    background: transparent;    
+    width: 7%;
+    height: 25%;  
+}
+#hittom3 img,
+#hittom4 img {
+    background: transparent;
+    width: 110%;
+    height: 109%;
+}
+#hithat button,
+#hitredo button,
+#hittom3 button,
+#hittom4 button  {
+    border: none;
+    background: rgba(128, 128, 128, 0);
+    color: rgba(128, 128, 128, 0.5);
+    font-size: 16px;
+    position: absolute;
+    width: 100%;
+    bottom: 45%;
+}
+#green {
+ 
+    height: 57px;
+    width: 183px;
+    margin-right: 100px;
+    border-radius: 31px;
+    border-style: none;
+    background: #00F582;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+#white {
+
+    width: 151px;
+    height: 51px;
+    left: 560px;
+    top: 803px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    border-style: none;
+    font-style: Bold;
+    letter-spacing: -0.01em;
+    color: #555555;
+    font-weight: 1000;
+    font-size: 16px;
+
+}
+
+/*Mobile & Tablet*/
+@media only screen and (max-width:991.98px ) {
+/* menú (Falta interacción al abrir el menú) */
+header {
+    display: flex;
+    flex-direction: column;        
+    width: 100%;
+    align-items: center; 
+}
+
+#logo{    
+    height: 118px;
+    width: 462px;    
+    display: flex;
+    justify-content: center;
+}
+header img{
+    display: flex;
+    justify-content: center;
+}   
+.bmenu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+} 
+
+#menu {   
+    visibility: visible;     
+    background-color:#00F582;
+    width: 93px;
+    height: 46px;
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 10px;
+}
+
+#line {
+    width: 15px;
+    height: 2px;
+    margin: 2px;
+    display: flex;    
+    background-color: white;
+}
+#line:nth-child(2) {
+    width: 10px;
+}
+nav a{
+    visibility: hidden;
+}
+/* Section principal */
+
+section {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+section img {
+    justify-self: center;
+    width: 100%;
+}
+
+/* hit button */
+#hitbombo, 
+#hitcrash,
+#hithat,
+#hitredo,
+#hittom1,
+#hittom2,
+#hittom3,
+#hittom4 {
+    visibility: hidden; 
+}
+#hitm {
+    visibility: visible; 
+    margin-top: 10%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    height:100%
+}
+#hitm img {
+    width: 50%;
+}
+#hitm button {
+    border: none;
+    background: rgba(128, 128, 128, 0);
+    color: rgba(128, 128, 128, 0.8);
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    right:3%;
+    width: 100%;
+
+}
+
+
+}
