@@ -18,9 +18,7 @@ header {
     justify-content: space-between;
 }
 #logo img {
-    padding-right: 100px;
-    margin-right: 50px;
-    width: 90%;
+    padding-right: 500px;
 }
 nav {
     display: flex;    
